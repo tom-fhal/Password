@@ -46,7 +46,7 @@ def informations():
             print("Votre mode passe respecte les conditions de sécurité")
             break
         else:
-            mdp = input("Votre mode passe ne respecte les conditions de sécurité : ")
+            mdp = input("Votre mode passe ne pas respecte les conditions de sécurité : ")
             check = mdp_check(mdp)
             turn +=1
     if turn > 0 and check == 0:
